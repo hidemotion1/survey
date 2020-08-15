@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>survey</title>
+</head>
+<body>
+<header>
+    <h2>Market Research Survey</h2>
+    <div>Please take a few seconds to complete this satisfaction survey</div>
+</header>
+<ul>
+    <li><label for="age">What is your age range?</label>
+        <div>
+            <select id="age">
+                <option>18-25</option>
+                <option>26-35</option>
+                <option>36-45</option>
+                <option>over 45</option>
+            </select>
+        </div>
+    </li>
+    <li>
+        <label for="income">What is your income range?</label>
+        <div>
+            <select id="income">
+                <option>$0-$25000</option>
+                <option>$25001-$50000</option>
+                <option>$50001-$100000</option>
+                <option>over $100000</option>
+            </select>
+        </div>
+    </li>
+    <li><label>Gender identify</label>
+        <div>
+            <input type="radio" id="male" name="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="nonbinary" name="nonbinary">
+            <label for="nonbinary">Nonbinary</label>
+        </div>
+    </li>
+    <li>
+        <label>Which of the products have your purchased in the last 2 months.Please check all that apply</label>
+        <div>
+            <input type="checkbox" id="product1">
+            <label for="product1">Product 1</label>
+            <br>
+            <input type="checkbox" id="product2">
+            <label for="product2">Product 2</label>
+            <br>
+            <input type="checkbox" id="product3">
+            <label for="product3">Product 3</label>
+        </div>
+    </li>
+    <li>
+        <label>How often would you use our new product</label>
+        <div>
+            <input type="checkbox" id="Daily">
+            <label for="Daily">Daily</label>
+            <br>
+            <input type="checkbox" id="weekly">
+            <label for="weekly">Weekly</label>
+            <br>
+            <input type="checkbox" id="monthly">
+            <label for="monthly">Monthly</label>
+        </div>
+    </li>
+    <li>
+        <label>What would you pay for the new product?</label>
+        <div>
+
+            <p1>$</p1>
+            <input type="number">
+            <p2>.</p2>
+            <input type="number">
+        </div>
+    </li>
+    <li>
+        <label>What features would you like to see in the new product</label>
+        <div>
+            <input type="text" style="height: 70px; width: 350px">
+        </div>
+    </li>
+    <li>
+        <label>please rate your level of agreement with the following statements</label>
+        <table>
+            <tr>
+                <th style="background-color: gray"></th>
+                <td style="background-color: gray">Strongly disagree</td>
+                <td style="background-color: gray">Disagree</td>
+                <td style="background-color: gray">Agree</td>
+                <td style="background-color: gray">Strongly agree</td>
+            </tr>
+            <tr>
+                <td>Our product are priced fairly</td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Our product are high quality</td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                <td>you would recommend our product to a friend or coworker</td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+        </table>
+    </li>
+</ul>
+</body>
+</html>
